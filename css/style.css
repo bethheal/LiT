@@ -1,0 +1,122 @@
+
+
+.heebo {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+nav{
+    display: flex;
+    text-decoration: none;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* padding:0 10px 0 5px; */
+    height: 60px;
+
+}
+img{
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+#nav-links{
+    display: flex;
+    list-style: none;
+    align-items: end;
+    align-content: space-around;
+    gap: 35px;
+    padding-right:30px ;
+
+}
+nav ul a{
+    text-decoration: none;
+
+}
+nav ul a:hover{
+    text-decoration: underline;
+
+}
+
+nav ul a {
+    background-image: linear-gradient(
+      to right,
+      #807b07,
+      #CF9015 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before{
+    content: '';
+    background: #CF9015;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before{
+    width: 100%;
+  }
+  
+
+
+/* hero section begins here */
+#hero{
+    display: flex;
+    width: 100vw;
+    height: auto;
+}
+#sec-left{
+    /* background-color: #FFFFFF; */
+    width: 50vw;
+    height: 90vh;
+}
+#sec-left #square {
+    background-color: rgba(207, 144, 21, 0.1);    padding: 50px 0 60px 0;
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+
+}
+#sec-left header span:first-child{
+    color: #11212E;
+    font-size: 45px;
+    padding: 0 0 0 200px;
+
+}
+#sec-left header span:last-child{
+    color: #807b07;
+}
+#sec-right{
+    background-color: #CF9015;
+    width: 50vw;
+    height: 110vh;   
+}
+#sec-right img{
+    width: 90%;
+    height: 70%;
+    padding: 100px 90px 60px 0;
+}
+/* hero section ends here */
+

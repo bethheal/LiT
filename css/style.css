@@ -93,6 +93,7 @@ nav ul a {
     display: flex;
     width: 100vw;
     height: auto;
+    padding-bottom: 50px;
 }
 #sec-left{
     /* background-color: #FFFFFF; */
@@ -100,23 +101,76 @@ nav ul a {
     height: 90vh;
 }
 #sec-left #square {
-    background-color: rgba(207, 144, 21, 0.1);  
+    background-color: rgba(207, 144, 21, 0.09);  
       /* padding: 50px 0 60px 0; */
-    height: 60vh;
+    height: 80vh;
     width: 30vw;
     position: absolute;
 
 }
-#sec-left header span:first-child{
+#sec-left header{
+    /* padding-left: 70px; */
+    padding: 100px 0 0 80px ;
+    /* text-transform: capitalize; */
+}
+
+#sec-left  .heebo{
     color: #53311B;
-    font-size: 45px;
-    padding: 0 0 0 200px;
+    font-size: 55px;
+    line-height: 52px;
+
 
 }
-#sec-left header .mulish{
+#sec-left .mulish{
     font-size: 20px;
+    line-height: 40px;
     color: #0F1F2E;
 }
+
+#sec-left #btn{
+    height: 60px;
+    width: 250px;
+    color: aliceblue;
+    background-color: #CF9015;
+    border: none;
+    background: rgb(135,61,24);
+    background: linear-gradient(90deg, rgba(135,61,24,1) 0%, rgba(207,144,16,1) 35%, rgba(182,148,100,1) 100%);
+
+}
+#sec-left #btn-overlay{
+    background-color: rgba(207, 144, 21, 0.09);  
+    /* background-color: rgba(0, 0, 0, 9);   */
+
+
+}
+/* example */
+
+    
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #D80286;
+  }
+  
+  
+  
+  
+  /* example */
+
 #sec-right{
     background-color: #CF9015;
     width: 50vw;
@@ -132,12 +186,13 @@ nav ul a {
 /* about goes here */
 #about-text {
     text-align: center;
+
 }
 
 #about-text .heebo {
     font-size: 46px;
     color: #53311B;
-
+    padding-bottom: 2000px;
 }
 #about-text .mulish{
     font-size: 18px;
@@ -146,12 +201,14 @@ nav ul a {
 }
 
 #about-img{
-    height: 60vh;;
+    height: 55vh;;
     padding: 60px 0 0 0 ;
    
 }
 #img-text{
     display: flex;
+    padding-left: 30px;
+
     
 }
 
@@ -163,10 +220,25 @@ nav ul a {
 #img-text .heebo{
     font-size: 26px;
     font-weight: normal;
+    text-align: center;
+
 }
 
 #img-text .mulish{
     font-size: 16px;
+    margin: 10px 0 0 0;
+    color:#232F55 ;
+    /* text-align: center; */
+}
+
+#img-text a{
+    text-decoration: none;
+    color:#232F55 ;
+
+}
+
+#img-text a:hover{
+    color: #CF9015;
 }
 
 /* about ends here */

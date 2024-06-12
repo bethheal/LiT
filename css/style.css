@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+.mulish {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
 nav{
     display: flex;
@@ -93,20 +100,22 @@ nav ul a {
     height: 90vh;
 }
 #sec-left #square {
-    background-color: rgba(207, 144, 21, 0.1);    padding: 50px 0 60px 0;
+    background-color: rgba(207, 144, 21, 0.1);  
+      /* padding: 50px 0 60px 0; */
     height: 60vh;
     width: 30vw;
     position: absolute;
 
 }
 #sec-left header span:first-child{
-    color: #11212E;
+    color: #53311B;
     font-size: 45px;
     padding: 0 0 0 200px;
 
 }
-#sec-left header span:last-child{
-    color: #807b07;
+#sec-left header .mulish{
+    font-size: 20px;
+    color: #0F1F2E;
 }
 #sec-right{
     background-color: #CF9015;
@@ -120,3 +129,44 @@ nav ul a {
 }
 /* hero section ends here */
 
+/* about goes here */
+#about-text {
+    text-align: center;
+}
+
+#about-text .heebo {
+    font-size: 46px;
+    color: #53311B;
+
+}
+#about-text .mulish{
+    font-size: 18px;
+    color: #0F1F2E;
+    padding: 0 ;
+}
+
+#about-img{
+    height: 60vh;;
+    padding: 60px 0 0 0 ;
+   
+}
+#img-text{
+    display: flex;
+    
+}
+
+#about-img img{
+    width: 30vw;
+    height: 50vh;
+}
+
+#img-text .heebo{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#img-text .mulish{
+    font-size: 16px;
+}
+
+/* about ends here */

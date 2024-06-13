@@ -219,6 +219,10 @@ a:hover::before {
 
 /* about ends here */
 
+#learn-more-sec{
+  display: flex;
+}
+
 #learn-more-sec #sec-left #square {
     background-color: rgba(207, 144, 21, 0.5);
     /* 0.09 */
@@ -248,12 +252,29 @@ a:hover::before {
     justify-content: left;
   }
 
-  #learn-more-sec p{
+  #learn-more-sec .sec-right{
     position: absolute;
-    top: 305%;
-left: 70;
-    font-size: 41px;
+    left: 64%;
     font-weight: normal;
     justify-content: left;
+    top: 305%;
 
+  }
+
+  .sec-right {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* height: 500px;
+    width: 550px; */
+    padding: 10px;
+  }
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 300px;
+  }
+  .item3 {
+    height: 330px;
+    width: 300px;
   }

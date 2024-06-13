@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .heebo {
   font-family: "Heebo", sans-serif;
   font-optical-sizing: auto;
@@ -282,9 +286,14 @@ a:hover::before {
     width: 250px;
   }
 
-  #footer-section {
+#footer-section img{
+  height: 80vh;
+  width: 95vw;
+}
+
+  #footer {
     position: relative;
-    width: 100vw;
+    width: 95vw;
     height: 60vh;
     background-color: #232F55;
     color: #EFEFEF;
@@ -296,16 +305,62 @@ a:hover::before {
 
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  column-gap: 10px;
   left: 250px;
   top: -100px;
   width: 60vw;
   height: 50vh;
-  /* background: linear-gradient(90deg,
-    rgba(182, 148, 100, 1) 0%,
-    rgba(135, 61, 24, 1) 35%,
-    rgba(207, 144, 16, 1) 100%
-  ); */
-  background-color: aqua;
+  background-image: linear-gradient(120deg, #fccb90 0%, #CF9015 100%);
+}
+
+#btn-footer{
+  display: flex;
+  column-gap: 30px;
+}
+
+/* #btn-name {
+  margin-left: 30px;
+  margin-top: 60px;
+} */
+
+#btn-footer a{
+  color: #494949;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  border: 3px solid #ffffff;
+  /* display: inline-block; */
+  /* transition: all 0.4s ease 0s; */
+  border-color: #ffffff;
 
 }
+
+#btn-footer a:first-child:hover{
+  background-color: #232F55;
+  border-color: #f6b93b;
+  transition: all 0.4s ease 0s;
+  color: #f6b93b;
+}
+
+#btn-footer a:last-child{
+  text-decoration: none;
+  color: #53311b;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  border-color: #ffffff;
+  font-weight: bolder;
+
+}
+#btn-footer a:last-child:hover {
+  color: #232F55; 
+  border-color: #f6b93b;
+  transition: all 0.4s ease 0s;
+}
+

@@ -28,7 +28,9 @@ nav {
 }
 img {
   justify-content: flex-start;
-  padding-left: 20px;
+  padding-left: 30px;
+  height: 40px;
+  width: 40px;
 }
 
 #nav-links {
@@ -370,10 +372,12 @@ a:hover::before {
 #copyright {
   margin-top: 200px;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
 
 } 
 #copyright #icons a{
-  padding: 40px 0 0 40px;
+  padding: 40px 0 0 30px;
   color: #EFEFEF;
 }
 #copyright #icons a:hover{
@@ -382,6 +386,15 @@ a:hover::before {
   
 }
 
+#copyright img{
+  padding-left: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+#copyright span{
+  padding-left: 30px;
+}
  #futher-infos {
   display: flex;
   flex-direction: column;

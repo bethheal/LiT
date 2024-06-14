@@ -318,6 +318,9 @@ a:hover::before {
   background-image: linear-gradient(120deg, #fccb90 0%, #CF9015 100%);
 }
 
+.contact .heebo{
+  font-size: 35px;
+}
 #btn-footer{
   display: flex;
   column-gap: 30px;
@@ -362,5 +365,38 @@ a:hover::before {
   color: #232F55; 
   border-color: #f6b93b;
   transition: all 0.4s ease 0s;
+}
+
+#copyright {
+  margin-top: 200px;
+  font-size: 20px;
+
+} 
+#copyright #icons a{
+  padding: 40px 0 0 40px;
+  color: #EFEFEF;
+}
+#copyright #icons a:hover{
+  padding-top:  60px;
+  color: #CF9015;
+  
+}
+
+ #futher-infos {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 220px;
+  text-decoration: none;
+}
+#futher-infos a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#futher-infos a:hover{
+  color: #CF9015;
 }
 

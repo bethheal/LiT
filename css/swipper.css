@@ -1,12 +1,17 @@
 
-
+.swiper-wrapper{
+  margin: 10px;
+  padding: 30px;
+}
 .swiper {
   width: 600px;
   height: 400px;
   padding: 50px;
   margin-top: 200px;
   margin-bottom: 300px;
-  background-color: rgba(207, 144, 21, 0.09);
+  /* background-color: rgba(207, 144, 21, 5); */
+  background-color: rgba(0, 0, 0, 0.9);
+
 }
 
 .swiper-slide {
@@ -21,17 +26,38 @@
   width: 100%;
 } */
 
+.happycustomer{
+  border-radius: 40%;
+  width: 100px;
+  height: 105px;
+  border: 1px solid red;
+  margin-bottom: 10px;
+
+  /* padding-bottom: 40px; */
+  /* margin-left: 30px; */
+}
+
+.swiper-slide .text1:first-child{
+  text-align: center;
+  color:#CF9015;
+  margin-top: 10px;
+  background-image: none;
+
+
+}
+
 .swiper-slide p{
   display: flex;
   color: brown;
-  margin-top: 150px;
   align-items: center;
-  padding: 40px 40px 40px 40px;
+  padding: 10px 40px 40px 40px;
   text-align: center;
   font-size: 12pt;
   font-weight: 400px;
 
 }
+
+
 .swiper-button-next, 
 .swiper-button-prev{
   width: 35px !important;

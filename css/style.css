@@ -191,7 +191,8 @@ a:hover::before {
 }
 #img-text {
   display: flex;
-  padding-left: 30px;
+  align-items: center;
+  /* padding-left: 30px; */
 }
 
 #about-img img {
@@ -203,6 +204,8 @@ a:hover::before {
   font-size: 26px;
   font-weight: normal;
   text-align: center;
+  padding-left: 40px;
+
 }
 
 #img-text .mulish {
@@ -211,6 +214,7 @@ a:hover::before {
   color: #232f55;
   /* text-align: center; */
   margin-bottom: 200px;
+  padding-left: 40px;
 
 }
 
@@ -377,7 +381,7 @@ a:hover::before {
 
 } 
 #copyright #icons a{
-  padding: 40px 0 0 30px;
+  padding: 40px 0 0 0px;
   color: #EFEFEF;
 }
 #copyright #icons a:hover{

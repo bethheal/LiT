@@ -27,10 +27,10 @@
 } */
 
 .happycustomer{
-  border-radius: 40%;
-  width: 100px;
+  border-radius: 30%;
+  width: 107px;
   height: 105px;
-  border: 1px solid red;
+  border: 5px solid red;
   margin-bottom: 10px;
 
   /* padding-bottom: 40px; */
@@ -40,12 +40,19 @@
 .swiper-slide .text1:first-child{
   text-align: center;
   color:#CF9015;
+  padding-right: 3px;
   margin-top: 10px;
   background-image: none;
 
-
 }
 
+.swiper-slide .text1:last-child{
+  text-align: center;
+  color:#CF9015;
+  padding-right: 3px;
+  /* margin-top: 10px; */
+
+}
 .swiper-slide p{
   display: flex;
   color: brown;
@@ -64,6 +71,10 @@
   height: 35px !important;
   border-radius: 50%;
   color: white !important;
-  background-color: grey;
+  background-color: white;
   
+}
+
+.swiper-pagination{
+    color: #CF9015;
 }

@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  overflow-x: hidden;
 }
 
 .heebo {
@@ -18,17 +19,22 @@ body{
 
 nav {
   display: flex;
+  position: absolute;
+  top: 20px; 
+  padding: 0 20px;
+
+  /* left: 20px; */
   text-decoration: none;
   /* flex-direction: row; */
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
   /* padding:0 10px 0 5px; */
   height: 60px;
 }
 img {
   justify-content: flex-start;
-  padding-left: 30px;
+  padding-left: 60px;
   height: 40px;
   width: 40px;
 }
@@ -37,9 +43,9 @@ img {
   display: flex;
   list-style: none;
   align-items: end;
-  align-content: space-around;
+  align-content:flex-start;
   gap: 35px;
-  padding-right: 30px;
+  padding: 0 217px;
 }
 nav ul a {
   text-decoration: none;
@@ -80,11 +86,39 @@ a:hover::before {
   width: 100%;
 }
 
+
+#contact-number{
+  margin-left: 180px;
+}
+
+ button{
+  background-color: #CF9015;
+  color: white;
+  border: 2px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 white;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: #CF9015;
+  box-shadow: inset 0 100px 0 0 rgb(250, 249, 247); /* set the box-shadow color to transparent */
+}
 /* hero section begins here */
 #hero {
   display: flex;
   width: 100vw;
   height: auto;
+
   padding-bottom: 50px;
 }
 #sec-left {
